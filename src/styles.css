@@ -1,0 +1,13 @@
+:root{ --bg:#f7f8fb; --card:#fff; --accent:#0b5cff; --muted:#6b7280; }
+body{ font-family: Inter, system-ui, Arial; background:var(--bg); margin:0; color:#111 }
+.container{ max-width:920px; margin:24px auto; padding:16px }
+.header{ text-align:center; margin-bottom:12px }
+.card{ background:var(--card); padding:16px; border-radius:12px; box-shadow: 0 6px 18px rgba(12,20,60,0.06); margin-bottom:12px }
+.btn{ background:var(--accent); color:#fff; padding:10px 14px; border:none; border-radius:10px; cursor:pointer }
+.form label{ display:block; margin-bottom:8px }
+.form input, .form select{ width:100%; padding:8px; margin-top:4px; border-radius:8px; border:1px solid #e6e9ef }
+.orders{ list-style:none; padding:0; margin:0 }
+.order{ display:flex; justify-content:space-between; padding:10px; border-bottom:1px solid #f1f3f6 }
+.small{ color:var(--muted); font-size:13px }
+.muted{ color:var(--muted); font-size:13px }
+.center{ text-align:center }
